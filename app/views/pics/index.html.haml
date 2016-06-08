@@ -1,3 +1,5 @@
 / @pics plural because we want to display all the pictures
-- @pics.each do |pic|
-  %h2= link_to @pic.title, pic
+- @pics.each  do  |pic|
+  %h2=  link_to pic.title,  pic
+
+= link_to "Gram it", new_pic_path
