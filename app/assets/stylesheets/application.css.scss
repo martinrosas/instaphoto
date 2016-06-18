@@ -16,3 +16,12 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#edit_page {
+  .current_image {
+    img {
+      display: block;
+      margin: 20px 0;
+    }
+  }
+}
