@@ -4,4 +4,8 @@
       .panel-heading
         %h1 Fix Pic
       .panel-body
+        / allows us to see pic on edit page
+        .current_image
+          %strong.center Right Now
+          =image_tag @pic.image.url(:medium)
         = render 'form'
