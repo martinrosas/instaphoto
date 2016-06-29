@@ -1,4 +1,5 @@
 class Pic < ActiveRecord::Base
+  acts_as_votable
   belongs_to :user
 
 # makes pic upload possible.
